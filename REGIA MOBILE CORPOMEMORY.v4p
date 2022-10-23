@@ -1921,7 +1921,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="19950" top="7463" width="6840" height="7530">
    </BOUNDS>
-   <BOUNDS type="Window" left="-13590" top="2895" width="28770" height="15450">
+   <BOUNDS type="Window" left="-1335" top="1680" width="28770" height="15450">
    </BOUNDS>
    <PIN pinname="JSON" visible="1">
    </PIN>

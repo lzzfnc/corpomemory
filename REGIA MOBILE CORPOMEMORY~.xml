@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY 1.8.3.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
    <BOUNDS type="Window" left="0" top="0" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
@@ -1847,7 +1847,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="390" top="105" width="5940" height="435">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.3|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.4|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1916,12 +1916,12 @@
    </NODE>
    <LINK srcnodeid="729" srcpinname="Y Output Value" dstnodeid="588" dstpinname="message">
    </LINK>
-   <NODE systemname="TextProjection" filename="modules\TextProjection.v4p" nodename="modules\TextProjection.v4p" componentmode="Hidden" id="746" debug="0" hiddenwhenlocked="1">
+   <NODE systemname="TextProjection" filename="modules\TextProjection.v4p" nodename="modules\TextProjection.v4p" componentmode="InAWindow" id="746" debug="0" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="20442" top="11228" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="19950" top="7463" width="6840" height="7530">
    </BOUNDS>
-   <BOUNDS type="Window" left="-13590" top="2895" width="28770" height="15450">
+   <BOUNDS type="Window" left="-1335" top="1680" width="28770" height="15450">
    </BOUNDS>
    <PIN pinname="JSON" visible="1">
    </PIN>

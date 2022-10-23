@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\modules\TextProjection.v4p" systemname="TextProjection" filename="C:\Users\Francesco\Desktop\repo\aiep\corpomemory\.vvvv\modules\TextProjection.v4p" scrollx="1815" scrolly="0">
+   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\modules\TextProjection.v4p" systemname="TextProjection" filename="C:\Users\Francesco\Desktop\repo\aiep\corpomemory\.vvvv\modules\TextProjection.v4p" scrollx="3645" scrolly="2085">
    <NODE systemname="AsXElement (JSON)" filename="%VVVV%\addonpack\lib\nodes\plugins\JSONStringAsElement.dll" nodename="AsXElement (JSON)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="4650" top="1485" width="100" height="100">
    </BOUNDS>
@@ -246,7 +246,7 @@
    </LINK>
    <LINK srcnodeid="4" srcpinname="Output String" dstnodeid="3" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="-13590" top="2895" width="28770" height="15450">
+   <BOUNDS type="Window" left="-1335" top="1680" width="28770" height="15450">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -299,7 +299,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="12015" top="33630" width="6000" height="4500">
    </BOUNDS>
-   <BOUNDS type="Window" left="17535" top="7005" width="10290" height="6435">
+   <BOUNDS type="Window" left="17160" top="900" width="10290" height="6435">
    </BOUNDS>
    <PIN pinname="Background Color" visible="1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
    </PIN>
@@ -491,7 +491,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="57">
-   <BOUNDS type="Node" left="15330" top="16440" width="2805" height="270">
+   <BOUNDS type="Node" left="15345" top="17070" width="2805" height="270">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -516,8 +516,6 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="59" srcpinname="Output" dstnodeid="57" dstpinname="Input">
-   </LINK>
    <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="60">
    <BOUNDS type="Node" left="16230" top="15225" width="100" height="100">
    </BOUNDS>
@@ -557,7 +555,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Damper (Animation)" nodename="Damper (Animation)" componentmode="Hidden" id="64">
-   <BOUNDS type="Node" left="15345" top="17010" width="100" height="100">
+   <BOUNDS type="Node" left="15375" top="17520" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Go To Position" visible="1">
    </PIN>
@@ -1251,9 +1249,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="203">
-   <BOUNDS type="Node" left="21105" top="7395" width="100" height="100">
+   <BOUNDS type="Node" left="21765" top="7110" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="21105" top="7395" width="945" height="1275">
+   <BOUNDS type="Box" left="21765" top="7110" width="945" height="1275">
    </BOUNDS>
    <PIN pinname="Rows" slicecount="1" values="4">
    </PIN>
@@ -1271,7 +1269,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Multiply (Value)" nodename="Multiply (Value)" componentmode="Hidden" id="204">
-   <BOUNDS type="Node" left="22125" top="8850" width="100" height="100">
+   <BOUNDS type="Node" left="22050" top="8955" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -1280,8 +1278,6 @@
    <PIN pinname="Input 2" slicecount="1" visible="1" values="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="203" srcpinname="Y Output Value" dstnodeid="204" dstpinname="Input 1">
-   </LINK>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="205">
    <BOUNDS type="Node" left="23385" top="9630" width="2160" height="480">
    </BOUNDS>
@@ -1449,8 +1445,6 @@
    <LINK srcnodeid="215" srcpinname="Output" dstnodeid="144" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="112" srcpinname="Output" dstnodeid="215" dstpinname="Input 1">
-   </LINK>
-   <LINK srcnodeid="145" srcpinname="Output" dstnodeid="56" dstpinname="Input">
    </LINK>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="217">
    <BOUNDS type="Node" left="6210" top="8850" width="3630" height="270">
@@ -3271,7 +3265,7 @@
    <LINK srcnodeid="446" srcpinname="Down Edge" dstnodeid="450" dstpinname="Set">
    </LINK>
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="453">
-   <BOUNDS type="Node" left="15570" top="17070" width="100" height="100">
+   <BOUNDS type="Node" left="16695" top="17370" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Receive String" slicecount="1" values="Fade">
    </PIN>
@@ -3563,9 +3557,9 @@
    <LINK srcnodeid="497" srcpinname="Output" dstnodeid="147" dstpinname="Text Renderer">
    </LINK>
    <NODE systemname="Round (Value)" filename="%VVVV%\addonpack\lib\nodes\plugins\Round.dll" nodename="Round (Value)" componentmode="Hidden" id="499">
-   <BOUNDS type="Node" left="22170" top="9255" width="100" height="100">
+   <BOUNDS type="Node" left="22035" top="9450" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="22170" top="9255" width="3000" height="3000">
+   <BOUNDS type="Box" left="22035" top="9450" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -3631,5 +3625,57 @@
    <LINK srcnodeid="502" srcpinname="Y Output Value" dstnodeid="501" dstpinname="Switch">
    </LINK>
    <LINK srcnodeid="502" srcpinname="Y Output Value" dstnodeid="500" dstpinname="Switch">
+   </LINK>
+   <NODE systemname="Add (Value)" nodename="Add (Value)" componentmode="Hidden" id="503">
+   <BOUNDS type="Node" left="15225" top="16425" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="59" srcpinname="Output" dstnodeid="503" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="503" srcpinname="Output" dstnodeid="57" dstpinname="Input">
+   </LINK>
+   <NODE systemname="Select (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Select (Value)" componentmode="Hidden" id="504">
+   <BOUNDS type="Node" left="18600" top="12525" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="18600" top="12525" width="3000" height="3000">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="GetSlice (Spreads)" nodename="GetSlice (Spreads)" componentmode="Hidden" id="505">
+   <BOUNDS type="Node" left="22005" top="8535" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Bin Size" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="203" srcpinname="Y Output Value" dstnodeid="505" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="505" srcpinname="Output" dstnodeid="204" dstpinname="Input 1">
+   </LINK>
+   <NODE systemname="GetSlice (Color)" nodename="GetSlice (Color)" componentmode="Hidden" id="506">
+   <BOUNDS type="Node" left="12615" top="8565" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Bin Size" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="145" srcpinname="Output" dstnodeid="506" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="193" srcpinname="MessagesByTime Bin Size" dstnodeid="506" dstpinname="Bin Size">
+   </LINK>
+   <LINK srcnodeid="193" srcpinname="MessagesByTime Bin Size" dstnodeid="505" dstpinname="Bin Size">
+   </LINK>
+   <LINK srcnodeid="506" srcpinname="Output" dstnodeid="56" dstpinname="Input">
    </LINK>
    </PATCH>
