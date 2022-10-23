@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY 1.8.3.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
    <BOUNDS type="Window" left="0" top="0" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
@@ -1847,7 +1847,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="390" top="105" width="5940" height="435">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.3|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.4|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
