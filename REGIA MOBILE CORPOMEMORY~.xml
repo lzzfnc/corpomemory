@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="15150" scrolly="5790" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
-   <BOUNDS type="Window" left="2460" top="4095" width="29040" height="6945">
+   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <BOUNDS type="Window" left="-120" top="-120" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="405" top="2475" width="750" height="840">
@@ -1916,12 +1916,12 @@
    </NODE>
    <LINK srcnodeid="729" srcpinname="Y Output Value" dstnodeid="588" dstpinname="message">
    </LINK>
-   <NODE systemname="TextProjection" filename="modules\TextProjection.v4p" nodename="modules\TextProjection.v4p" componentmode="InAWindow" id="746" debug="0" hiddenwhenlocked="1">
+   <NODE systemname="TextProjection" filename="modules\TextProjection.v4p" nodename="modules\TextProjection.v4p" componentmode="Hidden" id="746" debug="0" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="20442" top="11228" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="19950" top="7463" width="6840" height="7530">
    </BOUNDS>
-   <BOUNDS type="Window" left="-1335" top="1680" width="28770" height="15450">
+   <BOUNDS type="Window" left="-1335" top="1680" width="28785" height="15450">
    </BOUNDS>
    <PIN pinname="JSON" visible="1">
    </PIN>
@@ -1957,9 +1957,9 @@
    </PIN>
    <PIN pinname="Text Color Select" visible="1">
    </PIN>
-   <PIN pinname="Scroll Time Min" visible="1">
+   <PIN pinname="Scroll Time Min" visible="1" slicecount="1" values="30">
    </PIN>
-   <PIN pinname="Scroll Time Max" visible="1">
+   <PIN pinname="Scroll Time Max" visible="1" slicecount="1" values="60">
    </PIN>
    <PIN pinname="Height" slicecount="1" visible="1" values="2">
    </PIN>
@@ -1984,6 +1984,8 @@
    <PIN pinname="Scene Transition" visible="1">
    </PIN>
    <PIN pinname="Line width" visible="1">
+   </PIN>
+   <PIN pinname="Scroll Time" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="343" srcpinname="Data" dstnodeid="746" dstpinname="Data" hiddenwhenlocked="1">
@@ -2266,42 +2268,6 @@
    </NODE>
    <LINK srcnodeid="770" srcpinname="Color Output" dstnodeid="746" dstpinname="Text Color" hiddenwhenlocked="1">
    </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="772">
-   <BOUNDS type="Box" left="23370" top="9750" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="23370" top="9750" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="30">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="s">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Scroll Time Min|">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="772" srcpinname="Y Output Value" dstnodeid="746" dstpinname="Scroll Time Min">
-   </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="773">
-   <BOUNDS type="Box" left="23400" top="10296" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="23400" top="10296" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="60">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="s">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Scroll Time Max|">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="773" srcpinname="Y Output Value" dstnodeid="746" dstpinname="Scroll Time Max">
-   </LINK>
    <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="774">
    <BOUNDS type="Node" left="27225" top="7455" width="100" height="100">
    </BOUNDS>
@@ -2389,7 +2355,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="25350" top="9435" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1.49">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1.4">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -2539,7 +2505,7 @@
    </PIN>
    <PIN pinname="Output String" visible="1">
    </PIN>
-   <PIN pinname="Input String" slicecount="20" values="|chi ricordi?|,|scrivi e invia il tuo ricordo|,|come ricordi?|,|invia il tuo ricordo|,|scrivi e invia|,|io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;|,,,,,,,,,,,,,,">
+   <PIN pinname="Input String" slicecount="20" values="|io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;io ricordo come donna &cr;&lf;io ricordo come uomo&cr;&lf;io ricordo come essere&cr;&lf;dietro le porte i ricordi&cr;&lf;il ricordo di che cosa effettivamente ci ha disturbati o ci ha reso felici&cr;&lf;|,,,,,,,,,,,,,,,,,,,">
    </PIN>
    </NODE>
    <LINK srcnodeid="793" srcpinname="Output String" dstnodeid="746" dstpinname="Demo Message">
@@ -2637,5 +2603,19 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="799" srcpinname="Y Output Value" dstnodeid="746" dstpinname="Line width">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="800">
+   <BOUNDS type="Node" left="23505" top="9765" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="23505" top="9765" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Scroll Speed|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="800" srcpinname="Y Output Value" dstnodeid="746" dstpinname="Scroll Time">
    </LINK>
    </PATCH>
