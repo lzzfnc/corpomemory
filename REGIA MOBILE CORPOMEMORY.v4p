@@ -78,7 +78,7 @@
    <PIN pinname="Y Input Value" slicecount="2" values="0,0">
    </PIN>
    </NODE>
-   <NODE systemname="WsClientModule" filename="modules\WsClientModule.v4p" nodename="modules\WsClientModule.v4p" componentmode="Hidden" id="343" stayontop="0" hiddenwhenlocked="1">
+   <NODE systemname="WsClientModule" filename="modules\WsClientModule.v4p" nodename="modules\WsClientModule.v4p" componentmode="InAWindow" id="343" stayontop="0" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="480" top="10125" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="480" top="10125" width="3560" height="5863">
@@ -315,7 +315,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3945" top="795" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="||">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Corpomemory">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="||">
    </PIN>
@@ -1845,9 +1845,9 @@
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="727">
    <BOUNDS type="Node" left="390" top="105" width="444" height="240">
    </BOUNDS>
-   <BOUNDS type="Box" left="390" top="105" width="5940" height="435">
+   <BOUNDS type="Box" left="390" top="105" width="7125" height="465">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.8|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.9 + bridge&cr;&lf;&cr;&lf;|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>

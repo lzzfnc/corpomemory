@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <PATCH nodename="C:\Users\Francesco\Downloads\corpomemory-main\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
    <BOUNDS type="Window" left="-120" top="-120" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
@@ -78,7 +78,7 @@
    <PIN pinname="Y Input Value" slicecount="2" values="0,0">
    </PIN>
    </NODE>
-   <NODE systemname="WsClientModule" filename="modules\WsClientModule.v4p" nodename="modules\WsClientModule.v4p" componentmode="Hidden" id="343" stayontop="0" hiddenwhenlocked="1">
+   <NODE systemname="WsClientModule" filename="modules\WsClientModule.v4p" nodename="modules\WsClientModule.v4p" componentmode="InAWindow" id="343" stayontop="0" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="480" top="10125" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="480" top="10125" width="3560" height="5863">
@@ -315,7 +315,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3945" top="795" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="||">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Corpomemory">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="||">
    </PIN>
@@ -1847,7 +1847,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="390" top="105" width="5940" height="435">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.7|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.8|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
