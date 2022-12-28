@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\corpomemory-main\modules\SoundGUI.v4p" systemname="SoundGUI" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI.v4p" scrollx="3510" scrolly="2145">
+   <PATCH nodename="C:\Users\claud\OneDrive\Desktop\Corpomemory.1.8.9.Bridge\modules\SoundGUI.v4p" systemname="SoundGUI" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI.v4p" scrollx="3510" scrolly="2145">
    <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="4476" top="14304" width="100" height="100">
    </BOUNDS>

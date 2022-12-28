@@ -34,7 +34,11 @@
             <Pin Id="LGWZA3nE53mNeQN2yqrIxE" Name="Reset" Kind="InputPin" Bounds="891,-42" />
             <Pin Id="BpttXpmw63RQNX5S7pdf6X" Name="MessageID" Kind="InputPin" />
             <Pin Id="HtTCeQy5X14LHAemuLmsDs" Name="Insert Demo Message" Kind="InputPin" Bounds="1062,132" />
-            <Pin Id="NMhhVQSDqgaLIYOTu7tLcB" Name="Demo Message" Kind="InputPin" Bounds="945,76" />
+            <Pin Id="NMhhVQSDqgaLIYOTu7tLcB" Name="Demo Message" Kind="InputPin" Bounds="945,76">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
             <!--
@@ -586,7 +590,7 @@
                 </Patch>
               </Patch>
             </Node>
-            <ControlPoint Id="IRUrgMOwEkhMSzKH3Is9Qc" Bounds="860,299" />
+            <ControlPoint Id="IRUrgMOwEkhMSzKH3Is9Qc" Bounds="862,319" />
             <ControlPoint Id="FDKvZeh0WrPOerZjF2Cbcu" Bounds="969,433" />
             <Node Bounds="773,505,190,176" Id="FV4nd96cPVPPv2WUIURxiT">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -632,7 +636,7 @@
                 </Node>
               </Patch>
             </Node>
-            <Node Bounds="782,2,60,19" Id="PV5tlupWjkqPn5dZGw9SaH">
+            <Node Bounds="782,-253,60,19" Id="PV5tlupWjkqPn5dZGw9SaH">
               <p:NodeReference LastCategoryFullName="VVVV.UserMessages.UserMessages" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Messages" />
@@ -649,7 +653,7 @@
               <Pin Id="Rm0RRJ9DKXwLj3uu1JfI5b" Name="Output" Kind="StateOutputPin" />
               <Pin Id="A6HTgc3zKqaMwIz0wPfQDI" Name="GetMessagesList" Kind="OutputPin" />
             </Node>
-            <Node Bounds="783,88,51,26" Id="EUHEN32LEkSNjEm6bjdfDO">
+            <Node Bounds="783,-167,51,26" Id="EUHEN32LEkSNjEm6bjdfDO">
               <p:NodeReference LastCategoryFullName="VVVV.UserMessages.UserMessages.Messages" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Clear" />
@@ -659,7 +663,7 @@
               <Pin Id="NZx6tymBy6fPW8PERGpnz5" Name="ClearMessages" Kind="InputPin" />
               <Pin Id="VZZiwm5ZSQXQb1khaIe4NO" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="MYd6bhEIH8ENHNqt6foO4G" Comment="ClearMessages" Bounds="890,11,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="MYd6bhEIH8ENHNqt6foO4G" Comment="ClearMessages" Bounds="890,-244,35,35" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -668,7 +672,7 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <ControlPoint Id="DGi6DvrWicTLKiKbRQkApA" Bounds="881,326" />
+            <ControlPoint Id="DGi6DvrWicTLKiKbRQkApA" Bounds="883,346" />
             <Node Bounds="849,815,109,120" Id="RHXhGI3S7SiPtuKj62ee3G">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -738,8 +742,8 @@
             </Node>
             <ControlPoint Id="FhKPNQARIUbM4V6jEoCAIt" Bounds="1083,988" />
             <ControlPoint Id="Raay10FSz9xOhYW5PaO6YL" Bounds="1189,838" />
-            <ControlPoint Id="El8IpMkuSrLPJ1OO5wtq8r" Bounds="889,-32" />
-            <ControlPoint Id="Pm3EfnFDue5QWBgGLyaDfd" Bounds="901,354" />
+            <ControlPoint Id="El8IpMkuSrLPJ1OO5wtq8r" Bounds="889,-287" />
+            <ControlPoint Id="Pm3EfnFDue5QWBgGLyaDfd" Bounds="903,374" />
             <Node Bounds="697,309,81,26" Id="Qrrjr76OySOQRH3qD6uii8">
               <p:NodeReference LastCategoryFullName="VVVV.UserMessages.UserMessages.Messages" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -786,19 +790,19 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="770,140,100,96" Id="TgbXKMT5sC3N1U2h6An6Se">
+            <Node Bounds="770,-121,100,106" Id="TgbXKMT5sC3N1U2h6An6Se">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="HFGw3q4rUWDMkdytYIrkQI" Name="Condition" Kind="InputPin" />
-              <ControlPoint Id="DUT2hLoENT7PlxgX4VU4pI" Bounds="785,147,-52,0" Alignment="Top" />
-              <ControlPoint Id="MJDBBvso71kQbQKjbuMBCc" Bounds="784,230,-52,0" Alignment="Bottom" />
+              <ControlPoint Id="DUT2hLoENT7PlxgX4VU4pI" Bounds="785,-114,-52,0" Alignment="Top" />
+              <ControlPoint Id="MJDBBvso71kQbQKjbuMBCc" Bounds="784,-19,-52,0" Alignment="Bottom" />
               <Patch Id="DUsvCMbbtZnMFFbXYyHA4c" ManuallySortedPins="true">
                 <Patch Id="UR3fY74thjSLtPZXubg5JT" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Omd2dyPmWAzLNaDsnyCJdV" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="782,177,76,19" Id="AMEyf4SPEwxMWKIO5XwjqP">
+                <Node Bounds="782,-78,76,19" Id="AMEyf4SPEwxMWKIO5XwjqP">
                   <p:NodeReference LastCategoryFullName="VVVV.UserMessages" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
                     <Choice Kind="ProcessNode" Name="FakeMessage" />
                   </p:NodeReference>
@@ -813,8 +817,56 @@
                 </Node>
               </Patch>
             </Node>
-            <ControlPoint Id="F0G5b4dDTc2O4eCo4IsPeK" Bounds="1040,127" />
-            <ControlPoint Id="JB9IfCl2228PQXHMRoE0PM" Bounds="946,74" />
+            <ControlPoint Id="F0G5b4dDTc2O4eCo4IsPeK" Bounds="988,-38" />
+            <ControlPoint Id="JB9IfCl2228PQXHMRoE0PM" Bounds="984,12" />
+            <Node Bounds="767,75,195,190" Id="OLIFye5dC7RPKMqgFI0hn0">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Pin Id="BlvsgAwKuorNetwnZp5W88" Name="Condition" Kind="InputPin" />
+              <Patch Id="OMvWbNwJLulPXKK84PDo2g" ManuallySortedPins="true">
+                <Patch Id="D3Nmj7vAzyVOzf0T81VyqK" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="OGIPnEx7V5yOfpj8MpgBHb" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="785,191,74,26" Id="BxciBWCAgNBOwB4Yq37jGH">
+                  <p:NodeReference LastCategoryFullName="VVVV.UserMessages.UserMessages.Messages" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="ClassType" Name="Messages" />
+                    <Choice Kind="OperationCallFlag" Name="AddMessage" />
+                  </p:NodeReference>
+                  <Pin Id="ObgLrwcaxy1LRAeughwowN" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="AQP6zqCBInhMm79q03QFTX" Name="AddMessage" Kind="InputPin" />
+                  <Pin Id="DkfJ7ucCST5Nd9F1dRWAfV" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Node Bounds="914,98,36,19" Id="IrOtmYy3iaQQSsefdOGTRy">
+                  <p:NodeReference LastCategoryFullName="System.DateTime" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Now" />
+                    <CategoryReference Kind="RecordType" Name="DateTime" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="ReWBuRov3OZM37WsIaNfld" Name="Now" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="857,142,65,26" Id="UAWz6MtvY14QAqjABttOuX">
+                  <p:NodeReference LastCategoryFullName="VVVV.UserMessages.UserMessages.UserMessage" LastSymbolSource="VVVV.UserMessages.UserMessages.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Create" />
+                    <CategoryReference Kind="ClassType" Name="UserMessage" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="EXRYUIltkw0NZ83jj709cg" Name="Text" Kind="InputPin" />
+                  <Pin Id="KYVT6Y8Wy3cQbs94617fpM" Name="UserID" Kind="InputPin" DefaultValue="LZfXLFzPPR4NNrgjlWDxn">
+                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="TypeFlag" Name="String" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="IJjhr3fVlAQLNuj1OIRMbw" Name="MessageID" Kind="InputPin" />
+                  <Pin Id="BR3okiQUlz4PPUWZfKVzPL" Name="Time" Kind="InputPin" />
+                  <Pin Id="O1etzTeESWMOkoOi0VdXsy" Name="Output" Kind="StateOutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="BwuchAjPuS8PTM6IRLCGr5" Bounds="781,82" Alignment="Top" />
+              <ControlPoint Id="S771xBtbm6HP7ouNkLSgHO" Bounds="788,252" Alignment="Bottom" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
             <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
@@ -859,13 +911,19 @@
           <Link Id="UP8fuhBijcMP65cya3Tgud" Ids="QkfKrCM7n6wLzDxUkiBReZ,QSOZ6pwPCYMONXukhOpSp7" />
           <Link Id="CmiExBGCRGjQd5nfOibVNO" Ids="DUT2hLoENT7PlxgX4VU4pI,MJDBBvso71kQbQKjbuMBCc" IsFeedback="true" />
           <Link Id="LWwP2WcKGavL4U7UXPOQ2B" Ids="VZZiwm5ZSQXQb1khaIe4NO,DUT2hLoENT7PlxgX4VU4pI" />
-          <Link Id="By2GKTg0qdUOhAQXQExuNU" Ids="MJDBBvso71kQbQKjbuMBCc,EvL36XNE9GKPA82AC47PEk" />
-          <Link Id="D1OGjpnGeQMPsFbgwIwYw9" Ids="F0G5b4dDTc2O4eCo4IsPeK,HFGw3q4rUWDMkdytYIrkQI" />
           <Link Id="TQcMubFMNpQLdVwTOLrios" Ids="HtTCeQy5X14LHAemuLmsDs,F0G5b4dDTc2O4eCo4IsPeK" IsHidden="true" />
           <Link Id="SnUJW1Ms2G9QcZ6cHCerjq" Ids="DUT2hLoENT7PlxgX4VU4pI,H4bKFz8MZn2LCJZXDREgql" />
           <Link Id="MANsJqUXmlvOOF240xV2He" Ids="ARZvL18QENqNT6iLLYdCXJ,MJDBBvso71kQbQKjbuMBCc" />
-          <Link Id="SQVR3eFSbGoNLcz5CFqxXQ" Ids="JB9IfCl2228PQXHMRoE0PM,UPsfjQvSptjMirJwMH1O5F" />
           <Link Id="Ucx6TNzlAVQNsRO5zdYi0B" Ids="NMhhVQSDqgaLIYOTu7tLcB,JB9IfCl2228PQXHMRoE0PM" IsHidden="true" />
+          <Link Id="U8D7hQIOErFOgS0XaTSTGJ" Ids="BwuchAjPuS8PTM6IRLCGr5,S771xBtbm6HP7ouNkLSgHO" IsFeedback="true" />
+          <Link Id="KjFYzWmw2jcMwTUHJdVO0N" Ids="MJDBBvso71kQbQKjbuMBCc,BwuchAjPuS8PTM6IRLCGr5" />
+          <Link Id="GhCYLSMxgAJPLVSx5978AH" Ids="BwuchAjPuS8PTM6IRLCGr5,ObgLrwcaxy1LRAeughwowN" />
+          <Link Id="KBmx2yMUdpFMgxNAXJl0U5" Ids="DkfJ7ucCST5Nd9F1dRWAfV,S771xBtbm6HP7ouNkLSgHO" />
+          <Link Id="MkBKTdwzfVwNZ7fp8Tf1b2" Ids="S771xBtbm6HP7ouNkLSgHO,EvL36XNE9GKPA82AC47PEk" />
+          <Link Id="MY7MJNDn7TiPH3GOXwWySL" Ids="F0G5b4dDTc2O4eCo4IsPeK,BlvsgAwKuorNetwnZp5W88" />
+          <Link Id="GN7fgO1KiMbNjk9kIM1Zrc" Ids="JB9IfCl2228PQXHMRoE0PM,EXRYUIltkw0NZ83jj709cg" />
+          <Link Id="ROv4IpDMTaALhACDYHEPqH" Ids="ReWBuRov3OZM37WsIaNfld,BR3okiQUlz4PPUWZfKVzPL" />
+          <Link Id="Sa8Xhhq5QXEMgKHNe5rUnz" Ids="O1etzTeESWMOkoOi0VdXsy,AQP6zqCBInhMm79q03QFTX" />
         </Patch>
       </Node>
       <!--
