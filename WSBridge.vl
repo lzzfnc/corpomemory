@@ -381,6 +381,15 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="FxGycminlfOPnDh1VhyzxZ" Comment="Enabled" Bounds="725,356,35,33" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="BGB1jCWyQyZLDcgFevvEDv" Name="Create" />
         <Patch Id="BD2JIFbcKrJMUWjc8oEa1s" Name="Update" />
@@ -400,6 +409,7 @@
         <Link Id="PWE9dKp2EDWLV27ftuIqup" Ids="CEMEBby4GUZLQwjPvNFW8F,VYDZclZ9AoSNXKCIX78FxG" />
         <Link Id="JTH1vbOpml7NTkxYP6p7kV" Ids="E5qXsE2NxKlPA22BnFcM6r,Qr8ThFMec5aPmoFBQUdMju" />
         <Link Id="E9xduDLT5n0LbdTYLxuesF" Ids="OYG9avbIH8MM0NiabQ9e4F,TpVKazJy3iPMn6qAMmN5Nl" />
+        <Link Id="DkGJ2l4YY0oLaY4SNaY4mt" Ids="FxGycminlfOPnDh1VhyzxZ,QF8CgPKI15iP6gApJ3wPNS" />
       </Patch>
     </Node>
   </Patch>

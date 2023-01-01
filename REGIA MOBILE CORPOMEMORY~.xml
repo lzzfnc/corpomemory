@@ -1825,7 +1825,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="390" top="105" width="7125" height="465">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.8.9 + bridge&cr;&lf;&cr;&lf;|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Corpomemory Regia Mobile v1.9.0 + bridge&cr;&lf;&cr;&lf;|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
