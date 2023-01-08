@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\REGIA MOBILE CORPOMEMORY.v4p" scrollx="0" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\REGIA MOBILE CORPOMEMORY.v4p" scrollx="9825" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
    <BOUNDS type="Window" left="-120" top="-120" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
@@ -1899,7 +1899,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="19950" top="7463" width="6840" height="7530">
    </BOUNDS>
-   <BOUNDS type="Window" left="840" top="1125" width="28785" height="15450">
+   <BOUNDS type="Window" left="255" top="3195" width="28785" height="15450">
    </BOUNDS>
    <PIN pinname="JSON" visible="1">
    </PIN>
@@ -2325,7 +2325,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="25335" top="9510" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.71">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.92">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -2561,7 +2561,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="23235" top="9615" width="795" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="3.14">
+   <PIN pinname="Y Input Value" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>

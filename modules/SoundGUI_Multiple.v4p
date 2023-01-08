@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Downloads\wetransfer_nuova-regia-mobile-corpomemory-8_2022-10-18_1221\nuova REGIA MOBILE CORPOMEMORY 8\modules\SoundGUI_Multiple.v4p" systemname="SoundGUI_Multiple" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI_Multiple.v4p" scrollx="1425" scrolly="0">
+   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\modules\SoundGUI_Multiple.v4p" systemname="SoundGUI_Multiple" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI_Multiple.v4p" scrollx="1425" scrolly="0">
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3036" top="8157" width="100" height="100">
    </BOUNDS>
