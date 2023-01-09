@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\modules\SoundGUI_Multiple.v4p" systemname="SoundGUI_Multiple" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI_Multiple.v4p" scrollx="1425" scrolly="0">
+   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\modules\SoundGUI_Multiple.v4p" systemname="SoundGUI_Multiple" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\modules\SoundGUI_Multiple.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3036" top="8157" width="100" height="100">
    </BOUNDS>
@@ -93,7 +93,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1">
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
@@ -396,8 +396,6 @@
    </LINK>
    <LINK srcnodeid="4" srcpinname="Geometry Out" dstnodeid="5" dstpinname="Geometry">
    </LINK>
-   <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform In">
-   </LINK>
    <LINK srcnodeid="10" srcpinname="Output" dstnodeid="5" dstpinname="Color">
    </LINK>
    <NODE id="32" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
@@ -560,4 +558,6 @@
    </PACK>
    <PACK Name="mp.dx" Version="3.1.4.0">
    </PACK>
+   <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform In">
+   </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\REGIA MOBILE CORPOMEMORY.v4p" scrollx="9825" scrolly="0" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
-   <BOUNDS type="Window" left="-120" top="-120" width="29040" height="16440">
+   <PATCH nodename="C:\Users\Francesco\Desktop\repo\aiep\regia mobile\REGIA MOBILE CORPOMEMORY.v4p" scrollx="6000" scrolly="5700" systemname="REGIA MOBILE CORPOMEMORY 5" filename="C:\Users\Kamome\Documents\ws-demo\ws-vvvv-platform\.vvvv\REGIA MOBILE CORPOMEMORY 5.v4p" locked="0">
+   <BOUNDS type="Window" left="-240" top="4740" width="29040" height="16440">
    </BOUNDS>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="4" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="405" top="2475" width="750" height="840">
@@ -690,18 +690,6 @@
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <NODE systemname="ColorGUI" filename="modules\ColorGUI.v4p" nodename="modules\ColorGUI.v4p" componentmode="Hidden" id="599">
-   <BOUNDS type="Node" left="13764" top="11163" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="12214" top="9613" width="3100" height="3100">
-   </BOUNDS>
-   <BOUNDS type="Window" left="12135" top="3210" width="23250" height="13170">
-   </BOUNDS>
-   <PIN pinname="Single Color" visible="1">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
    <NODE id="454" systemname="Renderer (DX11)" nodename="Renderer (DX11)" componentmode="InABox" hiddenwhenlocked="0" managers="" stayontop="1" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll">
    <PIN pinname="Aspect Ratio" slicecount="1" visible="1" pintype="Input" values="||">
    </PIN>
@@ -709,9 +697,9 @@
    </PIN>
    <PIN pinname="Actual Backbuffer Height" visible="1" pintype="Output">
    </PIN>
-   <BOUNDS type="Node" left="12220" top="7750" width="100" height="100">
+   <BOUNDS type="Node" left="12220" top="7600" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="12220" top="7750" width="7350" height="4960">
+   <BOUNDS type="Box" left="12220" top="7600" width="7350" height="4960">
    </BOUNDS>
    <BOUNDS type="Window" left="18290" top="13210" width="9990" height="6760">
    </BOUNDS>
@@ -803,9 +791,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="525" srcpinname="Color Output" dstnodeid="454" dstpinname="Background Color" hiddenwhenlocked="1" linkstyle="Bezier">
-   <LINKPOINT x="14406" y="11003">
+   <LINKPOINT x="14406" y="10953">
    </LINKPOINT>
-   <LINKPOINT x="13526" y="9257">
+   <LINKPOINT x="13526" y="9157">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="454" srcpinname="Actual BackBuffer SizeXY" dstnodeid="585" dstpinname="Input Value">
@@ -1091,8 +1079,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="651" srcpinname="Y Output Value" dstnodeid="351" dstpinname="Period" hiddenwhenlocked="1">
-   </LINK>
-   <LINK srcnodeid="599" srcpinname="Single Color" dstnodeid="351" dstpinname="Single Color">
    </LINK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="657" systemname="IOBox (Color)">
    <BOUNDS type="Box" left="13530" top="4110" width="690" height="945">
